@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+  <title>Bootstrap 4 Layout</title>
+  <!-- SASS is are way to make it pretty and bootstrap is the structure -->
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800">
+  <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand" href="#">ThisORthat</a>
+      <!--Add here -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!--Add here -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">
+              Products
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Product 1</a>
+              <a class="dropdown-item" href="#">Product 2</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Another Product</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--         GRID/FLEXBOX -->
+    <div class="row" style="inline-block ">
+      <div class="col-md-6 align-items-stretch">
+        <div class="card">
+          <!-- <figure class="figure"> -->
+          <img id="object2" class="card-img-top" src="images/banana.jpg" alt="Card image cap" style='height: 100%; width: 100%; object-fit: contain' />
+          <!-- <figcaption class="figure-caption"><button> click me </button></figcaption>
+          </figure> -->
+          <div class="card-body">
+            <h5 class="card-title">Banana</h5>
+            <div class="content">
+              <p class="lead">
+                arth are brought and prepared, set on the we put ourselves back together once again at the table.</p>
+              <hr class="my-4">
+              <p>It uses utilityt uses utility classes for typography and spacing to space contt uses utility classes for typography and spacing to space content out within the larger conent out within the larger con classes for typography and
+                spacing to space content out within the larger container.</p>
+              <span>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+            <span class="spanfooter">
+              <footer>Card footer</footer>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 align-items-stretch">
+        <div class="card">
+          <!-- <figure class="figure"> -->
+          <img id="object2" class="card-img-top" src="images/orange.jpg" alt="Card image cap" style='height: 100%; width: 100%; object-fit: contain' />
+          <!-- <figcaption class="figure-caption"><button> click me </button></figcaption>
+          </figure> -->
+          <div class="card-body">
+            <h5 class="card-title">Orange</h5>
+            <div class="content">
+              <p class="lead">
+                arth are brought and prepared, set on the we put ourselves back together once again at the table.</p>
+              <hr class="my-4">
+              or dogs away from it. Babies teethe at the corners. They scrape their knees under it. It is here that children are given instructions on what it means to be human. We make men at it, we make women. At this table we gossip, recall
+              enemies and the ghosts of lovers. Our dreams drink coffee with us as they put their arms around our children. They laugh with us at our poor falling-down selves and as we put ourselves back together once again at the table.has
+              supporting text below We chase chickens or dogs away from it. Babies teethe at the corners. They scrape their knees under it.
+              as a natural lead-in to additional content.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+            <span class="spanfooter">
+              <footer>Card footer</footer>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+
+    <div class="card" id="cardfooter">
+      <div class="card-body">
+        This is some text within a card body.
+      </div>
+    </div>
+  </div>
+
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/popper.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+</body>
+
+</html>
